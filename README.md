@@ -49,7 +49,7 @@ cd seu-repo/iot
 ### 2. Backend
 
 ```sh
-cd backend
+cd src
 npm install
 ```
 
@@ -96,32 +96,16 @@ cd src
 node index.js
 ```
 
-### 3. Frontend
-
-```sh
-cd ../frontend
-npm install
-```
-
 ## Execução
 
 ### 1. Inicie o backend
 
 ```sh
-cd backend
+cd src
 node index.js
 ```
 
-### 2. Inicie o frontend
-
-Abra outro terminal:
-
-```sh
-cd frontend
-npm start
-```
-
-Acesse [http://localhost:3000](http://localhost:3000) no navegador.
+Acesse [http://localhost:3001](http://localhost:3001) no navegador.
 
 ## Código do Microcontrolador
 
